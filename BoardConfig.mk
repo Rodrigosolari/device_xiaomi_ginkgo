@@ -190,6 +190,9 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+#disale selinux for sailfish os
+selinux=0
+
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 BOARD_VNDK_VERSION := current
